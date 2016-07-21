@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Duck or Llama?</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div>
+    <button id="start-button">START!</button>
+    <div id="display">
+      <p>Hit "f" for DUCK, "j" for LLAMA</p>
+      <p>Hit "s" to start game!</p>
+      <p>Your score: <span id="score-display">0</span></p>
+    </div>
+    <div id="frame">
+      <div id="loser-display">You lose!</div>
+      <img id="picture" src="" alt="the picture">
+    </div>
+    <div id="buttons">
+      <button id="duck-button" class="chooser" data-choice="duck">
+        DUCK!
+      </button>
+      <button id="llama-button" class="chooser" data-choice="llama">
+        LLAMA!
+      </button>
+    </div>
+  </div>
+
+  <script src="jquery-2.2.4.min.js"></script>
+  <script src="game.js"></script>
+
+</body>
+
+</html>

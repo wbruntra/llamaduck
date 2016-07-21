@@ -1,0 +1,20 @@
+body {
+  background-color:aqua;
+}
+
+#frame {
+  border: 2px solid black;
+}
+
+img {
+  height: 600px;
+}
+
+#loser-display {
+  position: absolute;
+  top:320px;
+  left:90px;
+  font-size: 90px;
+  display:none;
+  color: red;
+}
